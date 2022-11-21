@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Fabricio-Lak-s-workspace-3e6kld.us-east-1.xata.sh/db/event-api",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
