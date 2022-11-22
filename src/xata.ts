@@ -13,7 +13,14 @@ const tables = [
       { name: "name", type: "string" },
       { name: "date", type: "datetime" },
       { name: "description", type: "text" },
-      { name: "eventLink", type: "string" },
+      { name: "image", type: "string" },
+      { name: "link", type: "string" },
+      {
+        name: "address",
+        type: "string",
+        notNull: true,
+        defaultValue: "Evento online",
+      },
     ],
   },
 ] as const;
